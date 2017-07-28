@@ -1,0 +1,68 @@
+body{
+  margin: 0px;
+}
+.header {
+  background-image: url("images/bg.jpeg");
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+.logo{
+  height: 46px;
+  margin-left: 20px;
+}
+ul.navbar {
+  width:100%;
+  list-style-type:none;
+  height: 100px;
+  top: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+ul.navbar li {
+  float:left;
+  padding:25px;
+  color: white;
+}
+li img {
+  float: left;
+}
+.mid-section .col{
+  margin: auto;
+  width: 50%;
+  height: 370px;
+}
+.col img{
+  width: 300px;
+  height: 320px;
+  display: block;
+  margin:auto;
+}
+
+#info{
+  background-color: lightgrey;
+  height: 250px;
+  padding-top: 20px;
+}
+#info-p{
+  text-align: center;
+
+}
+.addr{
+  display: inline;
+  width: 25%;
+  float: left;
+  padding-left: 25%
+}
+.form{
+  display: inline;
+  width: 25%;
+  float: right;
+  padding-right: 25%;
+}
+.footer{
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding-left: 100px;
+}
