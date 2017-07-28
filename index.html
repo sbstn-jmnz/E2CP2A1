@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Desafío Latam</title>
-<style media="screen">
+<head>
+  <meta charset="utf-8">
+  <title>Desafío Latam</title>
+  <style>
   body{
     margin: 0px;
   }
@@ -23,6 +23,7 @@
     height: 100px;
     top: 0px;
     margin-top: 0px;
+    padding: 0px;
   }
   ul.navbar li {
     float:left;
@@ -30,38 +31,104 @@
     color: white;
   }
   li img {
-    margin-right: 800px;
+    float: left;
   }
   .mid-section .col{
     margin: auto;
-    width: 33%;
-    height: 300px;
+    width: 50%;
+    height: 370px;
   }
   .col img{
     width: 300px;
-    height: 300px;
+    height: 320px;
+    display: block;
+    margin:auto;
   }
-</style>
-  </head>
-  <body>
-<div class="header">
-  <ul class="navbar">
-    <li><img src="images/latam_logo.png" alt="image" class='logo'></li>
-    <li>Equipo</li>
-    <li>Blog</li>
-    <li>Cotacto</li>
-  </ul>
-</div>
-<div class="mid-section">
-  <div class="col">
-    <h2 style="text-align:center;">EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINO AMÉRICA</h2>
-    <p style="text-align:center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <img src="images/happy-people.png" alt="happy">
+
+  #info{
+    background-color: lightgrey;
+    height: 250px;
+    padding-top: 20px;
+  }
+  #info-p{
+    text-align: center;
+
+  }
+  .addr{
+    display: inline;
+    width: 25%;
+    float: left;
+    padding-left: 25%
+  }
+  .form{
+    display: inline;
+    width: 25%;
+    float: right;
+    padding-right: 25%;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding-left: 100px;
+  }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <ul class="navbar">
+      <li><img src="images/latam_logo.png" alt="image" class='logo'></li>
+      <li style="float:right">Equipo</li>
+      <li style="float:right">Blog</li>
+      <li style="float:right">Cotacto</li>
+    </ul>
+    <h1 style="color:white; text-align:center">COMIENZA UNA NUEVA VIDA Y </br>ÚNETE AL MUNDO </br> TECNOLÓGICO</h1>
+    <div style="text-align:center;">
+      <button style="background-color:lightblue" type="button" name="button">Comienza acá!</button>
+      <button style="background-color:lightgreen" type="button" name="button">Más info!</button>
+      <h5 style="color:white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  </br> tempor incididunt ut labore et dolore magna aliqua</h5>
+    </div>
   </div>
+  <p style="text-align:center">EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINO AMÉRICA</p>
+  <div class="mid-section">
+    <div class="col">
+      <p style="text-align:center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  </br> tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="images/happy-people.png" alt="happy">
+    </div>
+  </div>
+
+  <div class="mid-section" id='info'>
+    <p id="info-p">SOLICITA INFORMACIÓN E INSCRÍBETE</p>
+    <p style="text-align:center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  </br> tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div style="text-align:center">
+      <button style="background-color:lightblue" type="button" name="button">Inscríbete!</button>
+      <h5 style="text-align:center">Vive la experiencia Desafío Latam!</h5>
+    </div>
+  </div>
+  <div style="height:100px; padding-top:15px">
+  <div class="addr">
+    Contacto <br>
+    Desafio Latam <br>
+    Ezequias Allienda 2381 <br>
+    P: +58345 534 5345 <br>
+    <a href="mailto:joe@example.com?subject=feedback">desafio@latam.cl</a>  
+  </div>
+
+  <div class="form">
+    Suscribete </br>
+    <h5 style="text-align:center; display:inline">Vive la experiencia Desafío Latam!</h5>
+    <form class="" action="index.html" method="post">
+      <input type="text" name="" value="Ingresa tu email">
+      <button type="button" class="btn btn-default">
+        Enviar!
+      </button>
+    </form>
+  </div>
+
 </div>
-<div class="">3</div>
-<div class="">4</div>
-<div class="">5</div>
-<div class="">6</div>
-  </body>
+
+  <div class="footer">
+    <p style="padding-top:10px">DESAFIOLATAM 2017-CURSO FULLSTACK G9</p>
+  </div>
+</body>
 </html>
